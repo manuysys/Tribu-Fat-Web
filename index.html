@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tribu Fat – Hamburguesas Smash en Haedo | La mejor burger de la zona</title>
+  <meta name="description"
+    content="Tribu Fat: hamburguesas smash gigantes en Haedo. Pan brioche, carne real, cheddar fundido y papas cargadas. 4.8★ en Google. ¡Pedí por WhatsApp!" />
+  <meta name="keywords"
+    content="hamburguesas smash, hamburguesería Haedo, Tribu Fat, bar de hamburguesas, papas cargadas, delivery Haedo, burgers artesanales, cena Haedo" />
+  <meta name="author" content="Tribu Fat" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Tribu Fat – Hamburguesas Smash en Haedo" />
+  <meta property="og:description"
+    content="Hamburguesas gigantes, sabor explosivo. Pedí por WhatsApp y disfrutá la mejor burger de Haedo." />
+  <meta property="og:image" content="img/hero_burger.png" />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="es_AR" />
+
+  <!-- Favicon -->
+  <link rel="icon"
+    href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🍔</text></svg>" />
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+  <!-- ======== NAVBAR ======== -->
+  <nav class="navbar" id="navbar">
+    <div class="container">
+      <a href="#" class="nav-logo">TRIBU FAT</a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#menu">Menú</a></li>
+        <li><a href="#nosotros">Nosotros</a></li>
+        <li><a href="#galeria">Galería</a></li>
+        <li><a href="#opiniones">Opiniones</a></li>
+        <li><a href="#ubicacion">Ubicación</a></li>
+        <li><a href="https://wa.me/5491125111332?text=Hola!%20Quiero%20pedir%20una%20hamburguesa%20de%20Tribu%20Fat"
+            target="_blank" class="btn btn-whatsapp btn-sm">Pedir 🍔</a></li>
+      </ul>
+      <div class="nav-hamburger" id="navHamburger" aria-label="Abrir menú de navegación">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ======== HERO ======== -->
+  <section class="hero" id="hero">
+    <div class="hero-bg">
+      <img src="img/hero_burger.png" alt="Hamburguesa smash gourmet de Tribu Fat" />
+    </div>
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <h1>TRIBU FAT</h1>
+      <p>Hamburguesas gigantes, sabor explosivo 🍔🔥</p>
+      <div class="hero-cta">
+        <a href="#menu" class="btn btn-outline">Ver Menú</a>
+        <a href="https://wa.me/5491125111332?text=Hola!%20Quiero%20pedir%20una%20hamburguesa%20de%20Tribu%20Fat"
+          target="_blank" class="btn btn-whatsapp">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+            <path
+              d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+          </svg>
+          Quiero mi burger 🍔
+        </a>
+      </div>
+      <p class="hero-trust"><span class="stars">★★★★★</span> 4.8 estrellas · 300+ reseñas en Google</p>
+    </div>
+  </section>
+
+  <!-- ======== MENÚ ======== -->
+  <section class="menu-section" id="menu">
+    <div class="container">
+      <h2 class="section-title reveal">Nuestro <span class="accent-yellow">Menú</span></h2>
+      <p class="section-subtitle reveal">Elegí tu favorita y pedila en segundos por WhatsApp</p>
+
+      <div class="menu-tabs reveal" id="menuTabs">
+        <button class="menu-tab active" data-category="simples">🍔 Simples</button>
+        <button class="menu-tab" data-category="dobles">🔥 Dobles / Triples</button>
+        <button class="menu-tab" data-category="veggie">🌱 Veggie</button>
+        <button class="menu-tab" data-category="tapas">🍟 Tapas</button>
+        <button class="menu-tab" data-category="bebidas">🍺 Bebidas</button>
+      </div>
+
+      <div class="menu-grid" id="menuGrid">
+
+        <!-- === SIMPLES === -->
+        <div class="menu-card reveal" data-category="simples">
+          <div class="menu-card-img">
+            <img src="img/hero_burger.png" alt="Classic Cheese" />
+            <span class="menu-card-badge">🔥 Más pedida</span>
+          </div>
+          <div class="menu-card-body">
+            <h3 class="menu-card-name">Classic Cheese</h3>
+            <p class="menu-card-desc">Pan papa, medallón 120g smash, doble cheddar fundido, salsa casera Tribu.</p>
+            <div class="menu-card-footer">
+              <span class="menu-card-price">$11.000</span>
+              <a href="https://wa.me/5491125111332?text=Hola!%20Quiero%20una%20Classic%20Cheese%20de%20Tribu%20Fat"
+                target="_blank" class="btn btn-whatsapp btn-sm">Pedir</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-card reveal" data-category="simples">
+          <div class="menu-card-img">
+            <img src="img/gallery_double_burger.png" alt="Cheese Bacon" />
+          </div>
+          <div class="menu-card-body">
+            <h3 class="menu-card-name">Cheese Bacon</h3>
+            <p class="menu-card-desc">Pan papa, carne smash, doble cheddar, panceta crocante ahumada.</p>
+            <div class="menu-card-footer">
+              <span class="menu-card-price">$13.300</span>
+              <a href="https://wa.me/5491125111332?text=Hola!%20Quiero%20una%20Cheese%20Bacon%20de%20Tribu%20Fat"
+                target="_blank" class="btn btn-whatsapp btn-sm">Pedir</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-card reveal" data-category="simples">
+          <div class="menu-card-img">
+            <img src="img/gallery_loaded_fries.png" alt="Doriloka" />
+            <span class="menu-card-badge">⭐ Recomendada</span>
+          </div>
+          <div class="menu-card-body">
+            <h3 class="menu-card-name">Doriloka</h3>
+            <p class="menu-card-desc">Pan papa, carne smash, cheddar spicy, bacon crocante, Doritos triturados.</p>
+            <div class="menu-card-footer">
+              <span class="menu-card-price">$13.600</span>
+              <a href="https://wa.me/5491125111332?text=Hola!%20Quiero%20una%20Doriloka%20de%20Tribu%20Fat"
+                target="_blank" class="btn btn-whatsapp btn-sm">Pedir</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-card reveal" data-category="simples">
+          <div class="menu-card-img">
+            <img src="img/hero_burger.png" alt="Morroneta" />
+          </div>
+          <div class="menu-card-body">
+            <h3 class="menu-card-name">Morroneta</h3>
+            <p class="menu-card-desc">Pan papa, carne smash, queso Dambo, morrón salteado, alioli casero.</p>
+            <div class="menu-card-footer">
+              <span class="menu-card-price">$13.600</span>
+              <a href="https://wa.me/5491125111332?text=Hola!%20Quiero%20una%20Morroneta%20de%20Tribu%20Fat"
+                target="_blank" class="btn btn-whatsapp btn-sm">Pedir</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-card reveal" data-category="simples">
+          <div class="menu-card-img">
+            <img src="img/gallery_mozza_sticks.png" alt="Crispy Americana" />
+          </div>
+          <div class="menu-card-body">
+            <h3 class="menu-card-name">Crispy Americana</h3>
+            <p class="menu-card-desc">Pan brioche, pollo crispy dorado, doble cheddar fundido.</p>
+            <div class="menu-card-footer">
+              <span class="menu-card-price">$10.900</span>
+              <a href="https://wa.me/5491125111332?text=Hola!%20Quiero%20una%20Crispy%20Americana%20de%20Tribu%20Fat"
+                target="_blank" class="btn btn-whatsapp btn-sm">Pedir</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- === DOBLES / TRIPLES === -->
+        <div class="menu-card reveal" data-category="dobles">
+          <div class="menu-card-img">
+            <img src="img/gallery_double_burger.png" alt="Amerikan Onion Doble" />
+            <span class="menu-card-badge">⭐ Recomendada</span>
+          </div>
+          <div class="menu-card-body">
+            <h3 class="menu-card-name">Amerikan Onion Doble</h3>
+            <p class="menu-card-desc">2 carnes smash con cebolla caramelizada, doble cheddar fundido + papas.</p>
+            <div class="menu-card-footer">
+              <span class="menu-card-price">$15.200</span>
+              <a href="https://wa.me/5491125111332?text=Hola!%20Quiero%20una%20Amerikan%20Onion%20Doble%20de%20Tribu%20Fat"
+                target="_blank" class="btn btn-whatsapp btn-sm">Pedir</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-card reveal" data-category="dobles">
+          <div class="menu-card-img">
+            <img src="img/hero_burger.png" alt="Baby Boomer Doble" />
+          </div>
+          <div class="menu-card-body">
+            <h3 class="menu-card-name">Baby Boomer Doble</h3>
+            <p class="menu-card-desc">2 carnes smash, doble cheddar, panceta crocante, huevo a la plancha, salsa BBQ.
+            </p>
+            <div class="menu-card-footer">
+              <span class="menu-card-price">$15.800</span>
+              <a href="https://wa.me/5491125111332?text=Hola!%20Quiero%20una%20Baby%20Boomer%20Doble%20de%20Tribu%20Fat"
+                target="_blank" class="btn btn-whatsapp btn-sm">Pedir</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-card reveal" data-category="dobles">
+          <div class="menu-card-img">
+            <img src="img/gallery_loaded_fries.png" alt="Fried Onion Doble" />
+          </div>
+          <div class="menu-card-body">
+            <h3 class="menu-card-name">Fried Onion Doble</h3>
+            <p class="menu-card-desc">2 carnes smash, doble cheddar, aros de cebolla crocantes, salsa casera.</p>
+            <div class="menu-card-footer">
+              <span class="menu-card-price">$17.000</span>
+              <a href="https://wa.me/5491125111332?text=Hola!%20Quiero%20una%20Fried%20Onion%20Doble%20de%20Tribu%20Fat"
+                target="_blank" class="btn btn-whatsapp btn-sm">Pedir</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-card reveal" data-category="dobles">
+          <div class="menu-card-img">
+            <img src="img/gallery_double_burger.png" alt="Cheese Bacon Doble" />
+          </div>
+          <div class="menu-card-body">
+            <h3 class="menu-card-name">Cheese Bacon Doble</h3>
+            <p class="menu-card-desc">2 carnes smash, doble cheddar fundido, panceta ahumada crocante.</p>
+            <div class="menu-card-footer">
+              <span class="menu-card-price">$15.000</span>
+              <a href="https://wa.me/5491125111332?text=Hola!%20Quiero%20una%20Cheese%20Bacon%20Doble%20de%20Tribu%20Fat"
+                target="_blank" class="btn btn-whatsapp btn-sm">Pedir</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-card reveal" data-category="dobles">
+          <div class="menu-card-img">
+            <img src="img/hero_burger.png" alt="Ruculin Doble" />
+          </div>
+          <div class="menu-card-body">
+            <h3 class="menu-card-name">Ruculin Doble</h3>
+            <p class="menu-card-desc">2 carnes smash, doble cheddar, rúcula fresca, cebolla morada.</p>
+            <div class="menu-card-footer">
+              <span class="menu-card-price">$15.000</span>
+              <a href="https://wa.me/5491125111332?text=Hola!%20Quiero%20una%20Ruculin%20Doble%20de%20Tribu%20Fat"
+                target="_blank" class="btn btn-whatsapp btn-sm">Pedir</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- === VEGGIE === -->
+        <div class="menu-card reveal" data-category="veggie">
+          <div class="menu-card-img">
+            <img src="img/gallery_mozza_sticks.png" alt="Big Fake + Papas" />
+          </div>
+          <div class="menu-card-body">
+            <h3 class="menu-card-name">Big Fake + Papas</h3>
+            <p class="menu-card-desc">Hamburguesa vegana NotCo, cheddar vegetal, tomate, lechuga + papas fritas.</p>
+            <div class="menu-card-footer">
+              <span class="menu-card-price">$14.400</span>
+              <a href="https://wa.me/5491125111332?text=Hola!%20Quiero%20una%20Big%20Fake%20de%20Tribu%20Fat"
+                target="_blank" class="btn btn-whatsapp btn-sm">Pedir</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- === TAPAS === -->
+        <div class="menu-card reveal" data-category="tapas">
+          <div class="menu-card-img">
+            <img src="img/gallery_loaded_fries.png" alt="Papas Cheddar Bacon" />
+          </div>
+          <div class="menu-card-body">
+            <h3 class="menu-card-name">Cajita Papas Cheddar-Bacon</h3>
+            <p class="menu-card-desc">Papas fritas crujientes bañadas en cheddar fundido y bacon crocante.</p>
+            <div class="menu-card-footer">
+              <span class="menu-card-price">$9.100</span>
+              <a href="https://wa.me/5491125111332?text=Hola!%20Quiero%20Papas%20Cheddar%20Bacon%20de%20Tribu%20Fat"
+                target="_blank" class="btn btn-whatsapp btn-sm">Pedir</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-card reveal" data-category="tapas">
+          <div class="menu-card-img">
+            <img src="img/gallery_mozza_sticks.png" alt="Bastones de Muzza" />
+          </div>
+          <div class="menu-card-body">
+            <h3 class="menu-card-name">Bastones de Muzza + Papas</h3>
+            <p class="menu-card-desc">Bastones de muzzarella crocantes, acompañados de papas fritas.</p>
+            <div class="menu-card-footer">
+              <span class="menu-card-price">$11.800</span>
+              <a href="https://wa.me/5491125111332?text=Hola!%20Quiero%20Bastones%20de%20Muzza%20de%20Tribu%20Fat"
+                target="_blank" class="btn btn-whatsapp btn-sm">Pedir</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-card reveal" data-category="tapas">
+          <div class="menu-card-img">
+            <img src="img/gallery_loaded_fries.png" alt="Papas Fritas Clásicas" />
+          </div>
+          <div class="menu-card-body">
+            <h3 class="menu-card-name">Papas Fritas Clásicas</h3>
+            <p class="menu-card-desc">Porción generosa de papas fritas doradas y crocantes.</p>
+            <div class="menu-card-footer">
+              <span class="menu-card-price">$6.500</span>
+              <a href="https://wa.me/5491125111332?text=Hola!%20Quiero%20Papas%20Fritas%20de%20Tribu%20Fat"
+                target="_blank" class="btn btn-whatsapp btn-sm">Pedir</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- === BEBIDAS === -->
+        <div class="menu-card reveal" data-category="bebidas">
+          <div class="menu-card-img">
+            <img src="img/gallery_craft_beer.png" alt="Cerveza Artesanal" />
+          </div>
+          <div class="menu-card-body">
+            <h3 class="menu-card-name">Cerveza Artesanal</h3>
+            <p class="menu-card-desc">Pinta de cerveza artesanal local. Consultá las variedades disponibles.</p>
+            <div class="menu-card-footer">
+              <span class="menu-card-price">$5.000</span>
+              <a href="https://wa.me/5491125111332?text=Hola!%20Quiero%20consultar%20las%20cervezas%20de%20Tribu%20Fat"
+                target="_blank" class="btn btn-whatsapp btn-sm">Pedir</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-card reveal" data-category="bebidas">
+          <div class="menu-card-img">
+            <img src="img/gallery_craft_beer.png" alt="Coca-Cola" />
+          </div>
+          <div class="menu-card-body">
+            <h3 class="menu-card-name">Coca-Cola 354ml</h3>
+            <p class="menu-card-desc">Lata de Coca-Cola bien fría para acompañar tu burger.</p>
+            <div class="menu-card-footer">
+              <span class="menu-card-price">$3.500</span>
+              <a href="https://wa.me/5491125111332?text=Hola!%20Quiero%20pedir%20bebidas%20de%20Tribu%20Fat"
+                target="_blank" class="btn btn-whatsapp btn-sm">Pedir</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ======== POR QUÉ ELEGIRNOS ======== -->
+  <section class="why-section" id="nosotros">
+    <div class="container">
+      <h2 class="section-title reveal">¿Por qué <span class="accent-yellow">Tribu Fat</span>?</h2>
+      <p class="section-subtitle reveal">No somos una hamburguesería más. Somos tu nueva tribu.</p>
+
+      <div class="why-grid">
+        <div class="why-card reveal">
+          <span class="why-card-icon">🔥</span>
+          <h3>Carne Real Smash</h3>
+          <p>Medallones aplastados a la plancha bien caliente. Bordes crocantes, interior jugoso. Sabor intenso en cada
+            mordisco.</p>
+        </div>
+        <div class="why-card reveal">
+          <span class="why-card-icon">🍔</span>
+          <h3>Porciones Generosas</h3>
+          <p>Hamburguesas XXL con pan artesanal, cheddar fundido a lo loco y papas cargadas hasta el tope. Acá nadie se
+            queda con hambre.</p>
+        </div>
+        <div class="why-card reveal">
+          <span class="why-card-icon">⚡</span>
+          <h3>Pedí en Segundos</h3>
+          <p>Tocá el botón de WhatsApp y listo. Sin apps, sin registros, sin vueltas. Tu burger sale al toque.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======== CÓMO PEDIR ======== -->
+  <section class="howto-section" id="como-pedir">
+    <div class="container">
+      <h2 class="section-title reveal">Pedí en menos de <span class="accent-orange">30 segundos</span></h2>
+      <p class="section-subtitle reveal">Así de fácil es comerse la mejor burger de Haedo</p>
+
+      <div class="howto-steps">
+        <div class="howto-step reveal">
+          <div class="howto-step-number">1</div>
+          <span class="howto-step-icon">📋</span>
+          <h3>Elegí tu burger favorita</h3>
+          <p>Mirá nuestro menú y dejate tentar por la que más te cope.</p>
+        </div>
+        <div class="howto-step reveal">
+          <div class="howto-step-number">2</div>
+          <span class="howto-step-icon">📱</span>
+          <h3>Tocá el botón WhatsApp</h3>
+          <p>Te armamos el pedido al toque. Sin descargas ni registros.</p>
+        </div>
+        <div class="howto-step reveal">
+          <div class="howto-step-number">3</div>
+          <span class="howto-step-icon">⏱️</span>
+          <h3>¡Listo! Esperá tu pedido</h3>
+          <p>Lo preparamos con amor y te lo mandamos o viene a buscarlo.</p>
+        </div>
+      </div>
+
+      <div class="howto-cta reveal">
+        <a href="https://wa.me/5491125111332?text=Hola!%20Quiero%20pedir%20una%20hamburguesa%20de%20Tribu%20Fat"
+          target="_blank" class="btn btn-whatsapp">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+            <path
+              d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+          </svg>
+          Pedir por WhatsApp
+        </a>
+        <span class="microcopy">Pedidos rápidos y sin complicaciones 💛</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======== GALERÍA ======== -->
+  <section class="gallery-section" id="galeria">
+    <div class="container">
+      <h2 class="section-title reveal">Nuestra <span class="accent-yellow">Galería</span></h2>
+      <p class="section-subtitle reveal">Fotos que dan hambre 📸</p>
+
+      <div class="gallery-grid">
+        <div class="gallery-item reveal">
+          <img src="img/hero_burger.png" alt="Hamburguesa smash con cheddar fundido" />
+        </div>
+        <div class="gallery-item reveal">
+          <img src="img/gallery_double_burger.png" alt="Doble hamburguesa con cerveza artesanal" />
+        </div>
+        <div class="gallery-item reveal">
+          <img src="img/gallery_loaded_fries.png" alt="Papas cargadas con cheddar y bacon" />
+        </div>
+        <div class="gallery-item reveal">
+          <img src="img/gallery_mozza_sticks.png" alt="Bastones de muzzarella con salsa" />
+        </div>
+        <div class="gallery-item reveal">
+          <img src="img/gallery_craft_beer.png" alt="Cervezas artesanales en barra" />
+        </div>
+        <div class="gallery-item reveal">
+          <img src="img/gallery_double_burger.png" alt="Ambiente del local Tribu Fat" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======== CTA PEDIDO ======== -->
+  <section class="cta-section">
+    <div class="container">
+      <h2 class="reveal">¿Tenés hambre? <span class="accent-orange">¡No esperes más!</span></h2>
+      <p class="cta-desc reveal">Cada minuto cuenta cuando hay hamburguesas esperándote. Pedí ahora y disfrutá.</p>
+      <a href="https://wa.me/5491125111332?text=Hola!%20Quiero%20pedir%20una%20hamburguesa%20de%20Tribu%20Fat"
+        target="_blank" class="btn btn-whatsapp reveal">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+          <path
+            d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+        </svg>
+        Quiero mi burger 🍔
+      </a>
+      <p class="cta-note reveal">Cerramos lunes y martes. ¡Aprovechá esta noche! 🌙</p>
+    </div>
+  </section>
+
+  <!-- ======== OPINIONES ======== -->
+  <section class="reviews-section" id="opiniones">
+    <div class="container">
+      <h2 class="section-title reveal">Lo que dice la <span class="accent-yellow">Tribu</span></h2>
+      <p class="section-subtitle reveal">4.8★ en Google con más de 300 reseñas</p>
+
+      <div class="reviews-grid">
+        <div class="review-card reveal">
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">"Sabor y tamaño 10 puntos. Las hamburguesas son increíbles, enormes y con ingredientes
+            de primera. Volveré sin dudas."</p>
+          <p class="review-author">Leonardo P.</p>
+          <p class="review-source">Google Reviews</p>
+        </div>
+        <div class="review-card reveal">
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">"La Classic Cheese nunca falla. Atención impecable y súper personalizada. Se nota que
+            les gusta lo que hacen."</p>
+          <p class="review-author">Martina G.</p>
+          <p class="review-source">Google Reviews</p>
+        </div>
+        <div class="review-card reveal">
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">"El mejor price-quality de la zona. Las papas cheddar-bacon son una locura. Ambiente re
+            copado para ir con amigos."</p>
+          <p class="review-author">Facundo R.</p>
+          <p class="review-source">Google Reviews</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======== INSTAGRAM ======== -->
+  <section class="insta-section" id="instagram">
+    <div class="container">
+      <h2 class="section-title reveal">Seguinos en <span class="accent-orange">Instagram</span></h2>
+      <p class="section-subtitle reveal">@tribu_fat · 18K seguidores 📷</p>
+
+      <div class="insta-grid">
+        <a href="https://instagram.com/tribu_fat" target="_blank" class="insta-item reveal">
+          <img src="img/hero_burger.png" alt="Tribu Fat Instagram" />
+        </a>
+        <a href="https://instagram.com/tribu_fat" target="_blank" class="insta-item reveal">
+          <img src="img/gallery_loaded_fries.png" alt="Tribu Fat Instagram" />
+        </a>
+        <a href="https://instagram.com/tribu_fat" target="_blank" class="insta-item reveal">
+          <img src="img/gallery_double_burger.png" alt="Tribu Fat Instagram" />
+        </a>
+        <a href="https://instagram.com/tribu_fat" target="_blank" class="insta-item reveal">
+          <img src="img/gallery_craft_beer.png" alt="Tribu Fat Instagram" />
+        </a>
+      </div>
+
+      <div class="insta-cta reveal">
+        <a href="https://instagram.com/tribu_fat" target="_blank" class="btn btn-outline">Ver Instagram →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======== UBICACIÓN ======== -->
+  <section class="location-section" id="ubicacion">
+    <div class="container">
+      <h2 class="section-title reveal">Encontranos en <span class="accent-yellow">Haedo</span></h2>
+      <p class="section-subtitle reveal">Te esperamos con las mejores burgers 📍</p>
+
+      <div class="location-grid">
+        <div class="location-map reveal">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.5!2d-58.5910!3d-34.6509!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzTCsDM5JzAzLjIiUyA1OMKwMzUnMjcuNiJX!5e0!3m2!1ses-419!2sar!4v1"
+            allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+            title="Ubicación de Tribu Fat en Haedo"></iframe>
+        </div>
+
+        <div class="location-info reveal">
+          <h3>📍 Tribu Fat – Haedo</h3>
+
+          <div class="location-detail">
+            <div class="location-detail-icon">🏠</div>
+            <div class="location-detail-text">
+              <h4>Dirección</h4>
+              <p>Marcos Sastre 21, B1706 Haedo, Buenos Aires</p>
+            </div>
+          </div>
+
+          <div class="location-detail">
+            <div class="location-detail-icon">📞</div>
+            <div class="location-detail-text">
+              <h4>Teléfono</h4>
+              <p>(011) 3047-5503</p>
+            </div>
+          </div>
+
+          <div class="location-detail">
+            <div class="location-detail-icon">💬</div>
+            <div class="location-detail-text">
+              <h4>WhatsApp</h4>
+              <p><a href="https://wa.me/5491125111332?text=Hola!%20Quiero%20info%20de%20Tribu%20Fat" target="_blank"
+                  style="color: var(--whatsapp-green);">+54 9 11 3047-5503</a></p>
+            </div>
+          </div>
+
+          <div class="location-hours">
+            <h4>🕐 Horarios</h4>
+            <div class="hours-row closed"><span class="day">Lunes</span><span class="time">Cerrado</span></div>
+            <div class="hours-row closed"><span class="day">Martes</span><span class="time">Cerrado</span></div>
+            <div class="hours-row"><span class="day">Miércoles</span><span class="time">19:00 – 23:30</span></div>
+            <div class="hours-row"><span class="day">Jueves</span><span class="time">19:00 – 23:30</span></div>
+            <div class="hours-row"><span class="day">Viernes</span><span class="time">19:00 – 00:30</span></div>
+            <div class="hours-row"><span class="day">Sábado</span><span class="time">19:00 – 00:30</span></div>
+            <div class="hours-row"><span class="day">Domingo</span><span class="time">19:00 – 23:30</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======== FOOTER ======== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <span class="nav-logo">TRIBU FAT</span>
+          <p>Hamburguesas smash artesanales en Haedo. Carne real, sabor explosivo y la mejor onda. Vení con tu tribu.
+            🍔🔥</p>
+        </div>
+        <div class="footer-links">
+          <h4>Links</h4>
+          <ul>
+            <li><a href="#menu">Menú</a></li>
+            <li><a href="#nosotros">Nosotros</a></li>
+            <li><a href="#galeria">Galería</a></li>
+            <li><a href="#opiniones">Opiniones</a></li>
+            <li><a href="#ubicacion">Ubicación</a></li>
+          </ul>
+        </div>
+        <div class="footer-social">
+          <h4>Seguinos</h4>
+          <div class="footer-social-icons">
+            <a href="https://instagram.com/tribu_fat" target="_blank" aria-label="Instagram">📷</a>
+            <a href="https://wa.me/5491125111332?text=Hola!%20Quiero%20info%20de%20Tribu%20Fat" target="_blank"
+              aria-label="WhatsApp">💬</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 Tribu Fat · Todos los derechos reservados.</p>
+        <p>Hecho con 🔥 y mucho cheddar</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ======== WHATSAPP FLOTANTE (DESKTOP) ======== -->
+  <div class="whatsapp-float" id="whatsappFloat">
+    <span class="whatsapp-float-tooltip">¿Querés pedir?</span>
+    <a href="https://wa.me/5491125111332?text=Hola!%20Quiero%20pedir%20una%20hamburguesa%20de%20Tribu%20Fat"
+      target="_blank" class="whatsapp-float-btn" aria-label="Pedir por WhatsApp">
+      <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor">
+        <path
+          d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+      </svg>
+    </a>
+  </div>
+
+  <!-- ======== WHATSAPP BARRA MOBILE ======== -->
+  <div class="whatsapp-mobile-bar" id="whatsappMobileBar">
+    <a href="https://wa.me/5491125111332?text=Hola!%20Quiero%20pedir%20una%20hamburguesa%20de%20Tribu%20Fat"
+      target="_blank">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+        <path
+          d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+      </svg>
+      Pedir ahora
+    </a>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
